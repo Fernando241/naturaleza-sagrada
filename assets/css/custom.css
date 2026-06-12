@@ -1,0 +1,222 @@
+/* ================================
+   NATURALEZA SAGRADA - DESIGN SYSTEM
+   ================================ */
+
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #1f2937;
+}
+
+/* ================================
+   COLORES CORPORATIVOS
+   ================================ */
+
+.bg-greenG {
+    background-color: #0C6316;
+}
+
+.bg-greenB {
+    background-color: #149A7B;
+}
+
+.text-greenY {
+    color: #D5E162;
+}
+
+.text-greenG {
+    color: #0C6316;
+}
+
+.text-greenB {
+    color: #149A7B;
+}
+
+.border-greenG {
+    border-color: #0C6316;
+}
+
+/* ================================
+   TIPOGRAFÍA BASE
+   ================================ */
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+p {
+    font-size: 1rem;
+    color: #374151;
+}
+
+/* ================================
+   CONTENEDORES
+   ================================ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* ================================
+   BOTONES (SISTEMA BASE)
+   ================================ */
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #0C6316;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0a4f12;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: #149A7B;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #117a63;
+}
+
+/* ================================
+   HEADER Y NAVEGACIÓN
+   ================================ */
+
+header {
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #0C6316;
+}
+
+/* efecto underline suave */
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #0C6316;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* ================================
+   HERO
+   ================================ */
+
+.hero-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+/* ================================
+   PRODUCT CARDS
+   ================================ */
+
+.product-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* ================================
+   SECCIONES
+   ================================ */
+
+section {
+    scroll-margin-top: 80px;
+}
+
+/* ================================
+   WHATSAPP FLOAT BUTTON
+   ================================ */
+
+#btn-ws {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+    z-index: 999;
+}
+
+#btn-ws:hover {
+    transform: scale(1.1);
+}
+
+/* ================================
+   UTILIDADES
+   ================================ */
+
+.shadow-soft {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.rounded-xl {
+    border-radius: 1rem;
+}
+
+.text-muted {
+    color: #6b7280;
+}

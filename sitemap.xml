@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://naturalezasagradasas.com/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/productos.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/quienes-somos.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/contacto.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/extracto-sagrado.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/limpieza-amazonica.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/aceite-el-milagroso.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://naturalezasagradasas.com/manto-vital.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>
