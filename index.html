@@ -33,7 +33,12 @@
         <meta name="twitter:card" content="summary_large_image">
 
         <!-- Favicon -->
-        <link rel="icon" href="/assets/images/logo/favicon.png">
+        <link rel="icon" href="/assets/images/logo/favicon.ico" sizes="any">
+        <link rel="shortcut icon" href="/assets/images/logo/favicon.ico">
+        <link rel="icon" type="image/svg+xml" href="/assets/images/logo/favicon.svg">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/favicon.png">
+        <link rel="apple-touch-icon" href="/assets/images/logo/favicon.png">
+
 
         <!-- Tailwind -->
         <script src="https://cdn.tailwindcss.com"></script>
@@ -60,7 +65,7 @@
                 <nav class="hidden md:flex space-x-6 text-sm font-medium">
 
                     <a href="/index.html"
-                        class="hover:text-green-700 transition">
+                        class="hover:text-green-700 transition text-green-700 font-semibold">
                         Inicio
                     </a>
 
@@ -80,7 +85,7 @@
                     </a>
 
                     <a href="/contacto.html"
-                        class="text-green-700 font-semibold hover:opacity-80">
+                        class="hover:text-green-700 transition">
                         Contacto
                     </a>
                 </nav>
@@ -93,10 +98,11 @@
 
             <!-- MOBILE MENU -->
             <div id="mobileMenu" class="hidden md:hidden flex flex-col px-6 pb-4 space-y-3">
-                <a href="/index.html">Inicio</a>
+                <a href="/index.html" class="text-green-700 font-semibold">Inicio</a>
                 <a href="/productos.html">Productos</a>
                 <a href="/aceite-el-milagroso.html">Quiénes Somos</a>
-                <a href="https://api.whatsapp.com/send?phone=573219729331">Contacto</a>
+                <a href="/herbolario.html">Biblioteca Botánica</a>
+                <a href="/contacto.html">Contacto</a>
             </div>
         </header>
         </section>
@@ -105,11 +111,9 @@
         <section
             class="pt-6 bg-repeat bg-white">
 
-            <div
-                class="bg-repeat py-10"
-                style="background-image:url('assets/images/general/patronGB.svg');">
+            <div>
 
-                <div class="max-w-7xl mx-auto px-4 text-center">
+                <div class="max-w-7xl mx-auto text-center pb-4">
 
                     <img
                         src="/assets/images/logo/logo.svg"
@@ -275,9 +279,7 @@
                 </h3>
 
                 <p class="text-gray-700 mt-3 text-sm leading-relaxed">
-                    Los productos ofrecidos por Naturaleza Sagrada S.A.S. BIC son elaboraciones artesanales de origen natural,
-                    sin finalidad terapéutica ni medicinal. No sustituyen tratamientos médicos ni diagnósticos profesionales.
-                    Su uso corresponde a prácticas tradicionales, culturales y de bienestar personal, conforme a la normativa colombiana vigente.
+                    En <b>Naturaleza Sagrada S.A.S. BIC</b> elaboramos preparaciones botánicas artesanales inspiradas en la tradición, el conocimiento ancestral y el respeto por la naturaleza. Nuestros productos acompañan prácticas de autocuidado consciente y bienestar personal. No son medicamentos ni sustituyen la atención de profesionales de la salud. Conoce la historia y tradición de sus ingredientes en nuestra Biblioteca Botánica.
                 </p>
 
             </div>
@@ -333,7 +335,7 @@
                     <li><a href="/index.html" class="hover:text-white">Inicio</a></li>
                     <li><a href="/productos.html" class="hover:text-white">Productos</a></li>
                     <li><a href="/quienes-somos.html" class="hover:text-white">Quiénes Somos</a></li>
-
+                    <li><a href="/herbolario.html" class="hover:text-white">Biblioteca Botánica</a></li>
                 </ul>
             </div>
 
